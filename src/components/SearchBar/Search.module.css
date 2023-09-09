@@ -1,0 +1,16 @@
+.searchBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    background: rgba(255, 255, 255, 0.423);
+    border-radius: 15px;
+    margin: 5px;
+    width: 20em;
+    backdrop-filter: blur(10px);
+}
+
+.agregar {
+    border-radius: 5px;
+    justify-content: space-between;
+}

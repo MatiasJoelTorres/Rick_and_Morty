@@ -1,0 +1,86 @@
+.divCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    width: auto;
+    
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+    border-color: bisque;
+    border: 5px;
+    border-radius: 5px;
+    color: #615d5d;
+}
+
+.glass-card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.nameListItem {
+    display: flex;
+    align-items: flex-start;
+    align-self: baseline;
+    justify-content: space-around;
+    width: auto;
+    height: auto;
+    background-color: rgba(255, 255, 0, 0.713);
+    color: black;
+    padding: 1em;
+    margin: 5px;
+    font-weight: 100;
+    border-radius: 20px;
+}
+
+.listItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 15vw;
+    height: 0.3vh;
+    background-color: #0000009a;
+    color:rgb(255, 255, 255);
+    padding: 1em;
+    margin: 5px;
+    font-weight: 200;
+    border-radius: 5px;
+}
+
+
+.img {
+    width: 100%;
+    object-fit: cover;
+    margin: 15px;
+    border-radius: 5%;
+    width: auto;
+    height: auto;
+}
+
+.button {
+    align-items: end;
+    border-radius: 5%;
+    align-self: self-end;
+    opacity: 5%;
+}
+.button:hover {
+    background-color: aliceblue;
+    color: #000000;
+}
+
+.divFavorites {
+    width: auto;
+    display: flex;
+}
+
+.favorites {
+    justify-content: flex-start;
+    align-items: start;
+}
+
